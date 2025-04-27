@@ -184,7 +184,7 @@ void bigballistic::clear(){
 bool bigballistic::render(){
 
 	//set camera view matrix
-	_application->m_view =_lookatrh(_vec3(-50.0f,20.0f, -1.5f),_vec3(0.0f, -10.0f, 40.0f), _utility::up);
+	_application->m_view =_lookatrh(_vec3(-60.0f,10.0f, -1.5f),_vec3(0.0f, 20.0f, 40.0f), _utility::up);
 
 	// shader: flat (lines) technique
 	application_error_hr(_fx->SetTechnique(_api_manager->m_hflat_tech) );
